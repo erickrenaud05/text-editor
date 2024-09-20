@@ -39,5 +39,8 @@ const assetCache = new CacheFirst({
   ],
 });
 
+
 // TODO: Implement asset caching
-registerRoute(  ({ request }) => request.destination === 'image', assetCache);
+registerRoute(  ({ request }) => 
+  request.destination === 'image' 
+  , assetCache);
