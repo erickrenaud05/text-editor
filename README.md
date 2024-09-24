@@ -2,7 +2,7 @@
 
 ## Description
 
-J.A.T.E is an abbrevitation for just another text editor. Which is exactly what this website is, a text editor. You can write code, and it'll automatically save the code for you. This text editor uses caching methods to give the user the best experience possible. This application is also a progressive web application meaning you can install it to use it offline or without going to the website. Here is a screenshot of the website: [Website](screenshots/websiste.jpeg). Here is a screenshot of the app version: [App](screenshots/app.jpeg);
+J.A.T.E is an abbrevitation for just another text editor. Which is exactly what this website is, a text editor. You can write code, and it'll automatically save the code for you. This text editor uses caching methods to give the user the best experience possible. This application is also a progressive web application meaning you can install it to use it offline or without going to the website. Here is a screenshot of the website: [Website](screenshots/website.jpeg). Here is a screenshot of the app version: [App](screenshots/app.jpeg);
 
 ## Usage
 
