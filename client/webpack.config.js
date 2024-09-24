@@ -18,7 +18,7 @@ module.exports = () => {
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
-      assetModuleFilename: 'assets/icons/icon_96x96.png'
+      // assetModuleFilename: 'assets/icons/icon_96x96.png'
     },
     plugins: [
       new HtmlWebpackPlugin({
@@ -28,6 +28,24 @@ module.exports = () => {
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
+      }),
+      new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
+        name: 'J.A.T.E',
+        short_name: 'J.A.T.E',
+        description: 'Just another text editor!',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
+        start_url: './',
+        publicPath: './',
+        icons: [
+          {
+            src: path.resolve('src/images/logo.png'),
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join('assets', 'icons'),
+          },
+        ],
       }),
     ],
 
