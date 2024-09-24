@@ -4,8 +4,7 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-        "server": "nodemon server.js --ignore client",
-        "install": "npm i && ../client npm i"
+        "server": "node server.js"
     },
     "keywords": [],
     "author": "",
