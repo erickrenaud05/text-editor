@@ -6,7 +6,7 @@
   "scripts": {
     "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\"",
     "start": "npm run build",
-    "server": "concurrently \"cd server && npm run server\"",
+    "server": "cd server && node server.js",
     "build": "",
     "install": "cd server && npm i && cd ../client && npm i",
     "client": ""
