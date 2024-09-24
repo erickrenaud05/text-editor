@@ -38,6 +38,5 @@
   "start_url": "./",
   "description": "Just another text editor!",
   "background_color": "#225ca3",
-  "theme_color": "#225ca3",
-  "form_factor": "wide"
+  "theme_color": "#225ca3"
 }

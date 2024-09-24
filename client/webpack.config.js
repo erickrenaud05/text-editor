@@ -39,7 +39,6 @@ module.exports = () => {
         theme_color: '#225ca3',
         start_url: './',
         publicPath: './',
-        form_factor: 'wide',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
